@@ -1,0 +1,73 @@
+/* product start */
+#products .box-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+#products .box-container .box{
+   width: 30%;
+   text-align:center;
+   background-color: #fff;
+   position: relative;
+   border-radius: 3rem;
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding: 3rem;
+   margin-left:1rem;
+}
+#products .box-container .box img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 3rem;
+
+}
+#products .box-container .box-head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    z-index: 10;
+}
+#products .box-container .box-head .title{
+
+    font-size:1.4rem;
+}
+#products .box-container .box-head .name{
+    font-size:3rem;
+    text-align:start;
+    font-weight: bold;
+    
+}
+#products .box-container .box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#products .box-container .box-bottom .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#products .box-container .box-bottom .info .price{
+    font-size:2rem;
+}
+#products .box-container .box-bottom .info .amount{
+    font-size:1.7rem;
+}
+#products .box-container .box-bottom .product-btn a{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius:50%;
+width: 4.5rem;
+height: 4.5rem;
+border:0.2rem solid var(--main-color);
+}
+#products .box-container .box-bottom .product-btn a i{
+    font-size:1.6rem;
+    color:var(--main-color)
+}
+
+/* product end */
